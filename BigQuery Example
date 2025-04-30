@@ -1,1 +1,6 @@
-
+SELECT Name, Club, COUNT(*) as goals
+FROM `project.dataset.top_scorers`
+WHERE ingestion_time >= DATE_SUB(CURRENT_DATE(), INTERVAL 7 DAY)
+GROUP BY Name, Club
+ORDER BY goals DESC
+LIMIT 5;
