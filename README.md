@@ -26,7 +26,7 @@ This project builds a full-stack football data pipeline. It scrapes data from re
 
 ## 🛠️ Data Pipeline
 
-![Data Pipeline](./assets/data_pipeline.png)
+![Data Pipeline](./data_pipeline.png)
 
 ---
 
